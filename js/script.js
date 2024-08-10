@@ -7,8 +7,6 @@ const todoCompleted = document.querySelector('.todo-completed')
 
 let toDoData = []
 
-localStorage.clear()
-
 const render = function () {
   todoList.innerHTML = ''
   todoCompleted.innerHTML = ''
